@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 django = "==4.2"
+pymysql = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
