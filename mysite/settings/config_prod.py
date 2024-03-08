@@ -6,7 +6,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["***.com"]
+ALLOWED_HOSTS = ["marketdatabase.across-shop.com"]
 
 DATABASES = {
     "default": {
