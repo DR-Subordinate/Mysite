@@ -21,7 +21,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME_TEST }}
           password: ${{ secrets.FTP_PASSWORD_TEST }}
-          server-dir: /home/brandacross/across-shop.com/public_html/test.across-shop.com/
+          server-dir: ./
           exclude: |
             **/.**/**
             .editorconfig
