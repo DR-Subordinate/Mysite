@@ -41,7 +41,7 @@ jobs:
 
             # .env を作成
             cat << EOF > .env
-            DJANGO_SETTINGS_MODULE=config.settings.config_prod
+            DJANGO_SETTINGS_MODULE=mysite.settings.config_prod
             SECRET_KEY=${{ secrets.SECRET_KEY }}
             DATABASE_HOST=${{ secrets.DATABASE_HOST }}
             DATABASE_PORT=${{ secrets.DATABASE_PORT }}
